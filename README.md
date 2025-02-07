@@ -52,7 +52,8 @@
  - Sorted by name
  - "branch" selection is made
  - "customerNo" is entered
- - "ekNo> entered
+ - "ekNo" entered
  - The entered values for iban are calculated
  - Check the result
 
+<img width="1841" alt="cases" src="https://github.com/user-attachments/assets/4970be32-b6b2-4532-aa76-f4650495e27e" />
