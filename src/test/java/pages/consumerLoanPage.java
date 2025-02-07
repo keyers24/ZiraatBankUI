@@ -32,7 +32,11 @@ public class consumerLoanPage extends baseTest{
                 click(getElement("mainDropdown"));
                 click(getElement("consumerLoanOption"));
         }
-
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         if (getElement("subDropdown").getText().contains("Tüketici Kredisi")) {
             log.info("Tüketici Kredisi sekmesi SEÇİLİ.");
         } else {
@@ -66,11 +70,7 @@ public class consumerLoanPage extends baseTest{
         checkElement(getElement("instalmentAmount"));
         checkElement(getElement("interestRate"));
         checkElement(getElement("costRate"));
-        try {
-            Thread.sleep(20000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+
     }
 
 }

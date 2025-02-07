@@ -28,7 +28,11 @@ public class housingLoanPage extends baseTest {
             click(getElement("mainDropdown"));
             click(getElement("housingOption"));
         }
-
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         if (getElement("subDropdown").getText().contains("Konut Kredisi")) {
             log.info("Konut Kredisi sekmesi SEÇİLİ.");
         } else {
