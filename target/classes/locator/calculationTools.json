@@ -1,0 +1,14 @@
+{
+  "calculationTools": {
+    "locatorType": "css",
+    "locatorValue": "div[class='sub-page-title'] h1"
+  },
+  "LoanCalculation": {
+    "locatorType": "xpath",
+    "locatorValue": "//div[@class='col-md-12 col-sm-6 col-xs-12 height-columns']//span[contains(text(),'Kredi Hesaplama')]"
+  },
+  "alert": {
+    "locatorType": "css",
+    "locatorValue": "a[class='icon-close']"
+  }
+}

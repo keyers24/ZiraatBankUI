@@ -1,0 +1,44 @@
+{
+  "ibanCalcBtn": {
+    "locatorType": "xpath",
+    "locatorValue": "//div[@class='col-md-4 col-sm-6 col-xs-12 height-columns']//a[normalize-space()='IBAN Hesaplama']"
+  },
+  "nameSearch": {
+    "locatorType": "id",
+    "locatorValue": "radio-2"
+  },
+  "branch": {
+    "locatorType": "id",
+    "locatorValue": "select2-ddlSube-container"
+  },
+  "inputBox": {
+    "locatorType": "css",
+    "locatorValue": "input[role='textbox']"
+  },
+  "acibadem": {
+    "locatorType": "id",
+    "locatorValue": "select2-ddlSube-result-f7c3-852"
+  },
+  "customerNo": {
+    "locatorType": "id",
+    "locatorValue": "musteriNo"
+  },
+  "ekNo": {
+    "locatorType": "id",
+    "locatorValue": "ekNo"
+  },
+  "calcBtn": {
+    "locatorType": "css",
+    "locatorValue": ".btn.btn-red.iban-calculate"
+  },
+
+  "icon": {
+    "locatorType": "css",
+    "locatorValue": ".icon-ok.icon"
+  },
+  "resultText": {
+    "locatorType": "css",
+    "locatorValue": "div[class='result-item'] span"
+  }
+
+}

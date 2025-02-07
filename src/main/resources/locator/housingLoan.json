@@ -1,0 +1,51 @@
+{
+  "housingLoan": {
+    "locatorType": "xpath",
+    "locatorValue": "//ul[@class='link-col-1 clearfix']//a[contains(text(),'Konut Kredisi')]"
+  },
+  "mainDropdown": {
+    "locatorType": "xpath",
+    "locatorValue": "//a[@class='selected']//span[contains(text(),'Konut Kredisi')]"
+  },
+  "housingOption": {
+    "locatorType": "xpath",
+    "locatorValue": "//a[@href='/tr/hesaplama-araclari/kredi-hesaplama/Taşıt-kredisi']//span[contains(text(),'Konut Kredisi')]"
+  },
+  "subDropdown": {
+    "locatorType": "id",
+    "locatorValue": "select2-ddlCredit-container"
+  },
+  "calcAmount": {
+    "locatorType": "id",
+    "locatorValue": "calc-tutar"
+  },
+  "calcMaturity": {
+    "locatorType": "id",
+    "locatorValue": "calc-vade"
+  },
+  "interest": {
+    "locatorType": "id",
+    "locatorValue": "faiz-orani"
+  },
+  "calculation": {
+    "locatorType": "css",
+    "locatorValue": ".btn.btn-red.calculation-btn"
+  },
+  "iconOk": {
+    "locatorType": "css",
+    "locatorValue": ".icon-ok.icon"
+  },
+
+  "instalmentAmount": {
+    "locatorType": "css",
+    "locatorValue": "div[class='form-result'] div:nth-child(1) label:nth-child(1)"
+  },
+  "interestRate": {
+    "locatorType": "css",
+    "locatorValue": "div[class='form-result'] div:nth-child(2) label:nth-child(1)"
+  },
+  "costRate": {
+    "locatorType": "css",
+    "locatorValue": "div[class='form-result'] div:nth-child(3) label:nth-child(1)"
+  }
+}
